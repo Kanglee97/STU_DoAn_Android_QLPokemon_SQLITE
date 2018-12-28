@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".DangNhapActivity">
+
+    <TextView
+        android:text=""
+        android:id="@+id/txtkhoangtrang"
+        android:layout_width="match_parent"
+        android:layout_height="240dp" />
+    <TextView
+        android:id="@+id/txtChu"
+        android:layout_below="@+id/txtkhoangtrang"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:text="@string/txt_dang_nhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txtChu"
+        android:id="@+id/layoutnhapvao"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:background="@drawable/user"
+            android:textAlignment="center"
+            android:hint="@string/hint_tendangnhap"
+            android:layout_below="@+id/txtanhanh"
+            android:id="@+id/txtNhapUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@drawable/user"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:hint="@string/hint_matkhaudangnhap"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/txtNhapUser"
+            android:id="@+id/txtNhappassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="@string/btn_dang_nhap"
+                android:textAllCaps="false"
+                android:background="@drawable/btndangnhap"
+                android:textColor="#000"
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_marginLeft="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/btndangnhap"
+                android:textColor="#000"
+                android:text="@string/btn_dang_ky"
+                android:id="@+id/btnDangKy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/layoutnhapvao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

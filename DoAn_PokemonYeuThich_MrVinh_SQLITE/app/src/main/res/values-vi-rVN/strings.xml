@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Pokemon</string>
+    <string name="hint_tendangnhap">Tên người dùng</string>
+    <string name="hint_matkhaudangnhap">Mật khẩu</string>
+    <string name="btn_dang_nhap">Đăng nhập</string>
+    <string name="btn_dang_ky">Đăng ký</string>
+    <string name="txt_dang_nhap">Đăng Nhập</string>
+    <string name="hint_tendangky">Tên nguời dùng</string>
+    <string name="hint_matkhaudangky">Mật khẩu</string>
+    <string name="hitn_matkhaudangky2">Xác nhận mật khẩu</string>
+    <string name="txt_dang_ky">Đăng ký</string>
+    <string name="btn_dang_ky_2">Đăng Ký</string>
+    <string name="txt_tieude_trachu">"Pokemon "</string>
+    <string name="btn_listtype_trangchu">DS Hệ</string>
+    <string name="btn_addtype_trangchu">Thêm hệ</string>
+    <string name="btn_listpoke_trangchu">DS Pokemon</string>
+    <string name="btn_addpoke_trangchu">Thêm Pokemon</string>
+    <string name="btn_map_trangchu">Bản đồ</string>
+    <string name="btn_ngonngu_trangchu">English</string>
+    <string name="txt_ten_activity_themhe">Thêm Hệ Pokemon</string>
+    <string name="txt_idhe_themhe">ID hệ</string>
+    <string name="txt_nhap_ten_type_themhe">Tên hê</string>
+    <string name="btn_them_themhe">Thêm</string>oá
+    <string name="btn_cap_nhat_themhe">Cập nhật</string>
+    <string name="btn_lam_lai_themhe">Làm mới</string>
+    <string name="txt_tieude_thempoke">Thêm Pokemon</string>
+    <string name="txt_tenpoke_thempoke">Tên Pokemon</string>
+    <string name="txt_cannang_thempoke">Cân nặng(kg)</string>
+    <string name="txt_chieucao_thempoke">Chiều cao(m)</string>
+    <string name="txt_loai_thempoke">Loại Pokemon</string>
+    <string name="btn_thempoke_thempoke">Thêm</string>
+    <string name="btn_lamlai_thempoke">Làm mới</string>
+    <string name="txt_ma_pokemon_chitiet">Mã Pokemon</string>
+    <string name="txt_ten_pokemon_chitiet">Tên Pokemon</string>
+    <string name="btn_lam_lai_xoahe">Xoá</string>
+    <string name="title_delete">Xoá</string>
+    <string name="title_mee_edit">Bạn có chắc cập nhật dữ liệu?</string>
+    <string name="title_mess_delete">Bạn có chắc xoá dữ liệu?</string>
+    <string name="title_edit">Cập nhật</string>
+    <string name="title_no">Không</string>
+    <string name="title_yes">Đồng ý</string>
+    <string name="ChooseImage">Vui lòng chọn hình ảnh</string>
+    <string name="messAddSuccess">Thêm thành công</string>
+    <string name="messErrorSpace">Vui lòng nhập đầy đủ</string>
+    <string name="title_update">Cập nhật</string>
+    <string name="messError">"Không thể xoá "</string>
+    <string name="messErrorPostion">Không tìm thấy vị trí nhé,</string>
+    <string name="messSuccess">Thành công</string>
+    <string name="messFailed">Thất bại</string>
+    <string name="messpassWrong">Mật khẩu khôbng khớp</string>
+
+
+</resources>

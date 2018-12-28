@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThemTypeActivity">
+
+    <TextView
+        android:background="@drawable/user"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="@string/txt_ten_activity_themhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:background="@drawable/user"
+        android:enabled="false"
+        android:hint="@string/txt_idhe_themhe"
+        android:id="@+id/txtIDHePokemon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="@drawable/user"
+        android:hint="@string/txt_nhap_ten_type_themhe"
+        android:id="@+id/txtNhapTenHePokemon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textAllCaps="false"
+            android:background="@drawable/btnthemcapnhat"
+            android:text="@string/btn_them_themhe"
+            android:id="@+id/btnThemHePokemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+
+            android:textAllCaps="false"
+            android:background="@drawable/btnthemcapnhat"
+            android:enabled="false"
+            android:text="@string/btn_cap_nhat_themhe"
+            android:id="@+id/btnCapNhapHePokemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textAllCaps="false"
+            android:background="@drawable/btnthemcapnhat"
+            android:text="@string/btn_lam_lai_themhe"
+            android:id="@+id/btnLamMoiHe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textAllCaps="false"
+            android:background="@drawable/btnthemcapnhat"
+            android:text="@string/btn_lam_lai_xoahe"
+            android:id="@+id/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lstHienThiDSHe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+
+</LinearLayout>

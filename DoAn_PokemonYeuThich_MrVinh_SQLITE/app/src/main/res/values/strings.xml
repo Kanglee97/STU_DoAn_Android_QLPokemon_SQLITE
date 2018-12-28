@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">My Pokemon</string>
+
+    <string name="hint_tendangnhap">User Name</string>
+    <string name="hint_matkhaudangnhap">Password</string>
+    <string name="btn_dang_nhap">Login</string>
+    <string name="btn_dang_ky">Sign Up</string>
+    <string name="txt_dang_nhap">Login</string>
+
+    <string name="hint_tendangky">User Name</string>
+    <string name="hint_matkhaudangky">Password</string>
+    <string name="hitn_matkhaudangky2">Confirm Password</string>
+    <string name="txt_dang_ky">Sign Up</string>
+    <string name="btn_dang_ky_2">Sign Up</string>
+
+    <string name="txt_tieude_trachu">My Pokemon</string>
+    <string name="btn_listtype_trangchu">List Type</string>
+    <string name="btn_addtype_trangchu">Add Type</string>
+    <string name="btn_listpoke_trangchu">List Pokemon</string>
+    <string name="btn_addpoke_trangchu">Add Pokemon</string>
+    <string name="btn_map_trangchu">Map</string>
+    <string name="btn_ngonngu_trangchu">Tiếng Việt</string>
+
+    <string name="txt_ten_activity_themhe">Add Type</string>
+    <string name="txt_idhe_themhe">ID Type</string>
+    <string name="txt_nhap_ten_type_themhe">Type</string>
+    <string name="btn_them_themhe">Add</string>
+    <string name="btn_cap_nhat_themhe">Update</string>
+    <string name="btn_lam_lai_themhe">Reset</string>
+    <string name="btn_lam_lai_xoahe">Delete</string>
+
+    <string name="txt_tieude_thempoke">Add Pokemon</string>
+    <string name="txt_tenpoke_thempoke">Name Pokemon</string>
+    <string name="txt_cannang_thempoke">Weight(kg)</string>
+    <string name="txt_chieucao_thempoke">Height(m)</string>
+    <string name="txt_loai_thempoke">Category</string>
+    <string name="btn_thempoke_thempoke">Add</string>
+    <string name="btn_lamlai_thempoke">Reset</string>
+    <string name="txt_ma_pokemon_chitiet">ID Pokemon</string>
+    <string name="txt_ten_pokemon_chitiet">Name</string>
+    <string name="title_delete">Delete</string>
+    <string name="title_update">Update</string>
+    <string name="title_mee_edit">Are you sure you wanna update this?</string>
+    <string name="title_mess_delete">Are you sure you wanna delete this?</string>
+    <string name="title_edit">Update</string>
+    <string name="title_no">No</string>
+    <string name="title_yes">Yes</string>
+    <string name="ChooseImage">Please select image</string>
+    <string name="messAddSuccess">Add Success</string>
+    <string name="messErrorSpace">Please enter a full</string>
+    <string name="messError">Can not delete</string>
+    <string name="messErrorPostion">Position, I do not know</string>
+    <string name="messSuccess">Success</string>
+    <string name="messFailed">Wrong</string>
+
+
+    <string name="map" translatable="false">AIzaSyA-IyrB21XDuC_Os9BBxbj4viG4hzT7hvo</string>
+    <string name="messpassWrong">Wrong password</string>
+
+</resources>

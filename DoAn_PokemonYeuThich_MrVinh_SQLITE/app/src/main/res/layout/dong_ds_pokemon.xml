@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:background="@drawable/background_dong_final"
+        android:id="@+id/layoutkhung"
+        android:orientation="horizontal"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="110dp"
+                android:id="@+id/txtHienThiTenPokemon_List"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:text="Ten Pokemon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_toRightOf="@+id/txtHienThiMaSoPokemon_List"
+                android:layout_marginLeft="50dp"
+                android:layout_below="@+id/txtHienThiTenPokemon_List"
+                android:textColor="#000"
+                android:id="@+id/txtHienThiHePokemon_List"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                android:text="he"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="115dp"
+                android:layout_below="@+id/txtHienThiTenPokemon_List"
+                android:id="@+id/txtHienThiMaSoPokemon_List"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                android:text="Ma poke"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_anh_final"
+        android:id="@+id/imgHienThiPokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

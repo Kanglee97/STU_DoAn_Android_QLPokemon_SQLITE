@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+    <RelativeLayout
+        android:id="@+id/layout0"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/txtHTAbout01"
+            android:textColor="#000"
+            android:enabled="false"
+            android:background="@drawable/user"
+            android:text="Le Tien Khang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txtHTAbout02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtHTAbout01"
+            android:background="@drawable/user"
+            android:enabled="false"
+            android:text="DH51500954"
+            android:textColor="#000" />
+        <EditText
+           android:layout_toRightOf="@+id/txtHTAbout02"
+            android:layout_below="@+id/txtHTAbout01"
+            android:id="@+id/txtHTAbout03"
+            android:textColor="#000"
+            android:enabled="false"
+            android:background="@drawable/user"
+            android:text="D15_TH07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <fragment
+        android:layout_below="@+id/layout0"
+        android:id="@+id/fragMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </fragment>
+
+</RelativeLayout>

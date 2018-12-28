@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".DetailPokemonActivity">
+
+
+    <RelativeLayout
+        android:padding="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+
+            android:background="@drawable/user"
+            android:id="@+id/txtHienThiTenChiTiet"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:text="Ten Pokemon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/rowpokemon"
+            android:id="@+id/imgHienThiAnhChiTiet"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/txtHienThiTenChiTiet"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_below="@+id/imgHienThiAnhChiTiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="21dp"
+                android:text="@string/txt_ma_pokemon_chitiet"/>
+
+            <EditText
+                android:enabled="false"
+                android:id="@+id/txtHienThiIdChiTiet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_below="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="21dp"
+                android:text="@string/txt_chieucao_thempoke"/>
+
+            <EditText
+                android:id="@+id/txtHienThiChieuCaoChiTiet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@+id/layout2"
+            android:id="@+id/layout3"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="21dp"
+                android:text="@string/txt_cannang_thempoke"/>
+
+            <EditText
+                android:id="@+id/txtHienThiCanNangChiTiet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout4"
+            android:layout_below="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="21dp"
+                android:text="@string/txt_nhap_ten_type_themhe"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerChiTiet02" />
+        </LinearLayout>
+
+        <LinearLayout
+
+           android:layout_below="@+id/layout4"
+            android:gravity="center"
+            android:id="@+id/layoutDong5"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnThemChiTiet"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:text="@string/btn_thempoke_thempoke"
+                android:background="@drawable/btnthemcapnhat"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/layoutDong5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnCapNhatChiTiet"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:text="@string/btn_cap_nhat_themhe"
+                android:background="@drawable/btnthemcapnhat"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/layoutDong5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnXoaChiTiet"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:text="@string/btn_lam_lai_xoahe"
+                android:background="@drawable/btnthemcapnhat"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/layoutDong5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <EditText
+            android:textColor="#FFF"
+            android:layout_below="@id/layoutDong5"
+            android:textSize="20sp"
+            android:id="@+id/txtHienThiHeChiTiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

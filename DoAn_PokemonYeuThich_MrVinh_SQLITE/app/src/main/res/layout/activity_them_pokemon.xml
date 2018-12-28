@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThemPokemonActivity">
+    <LinearLayout
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/user"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="@string/txt_tieude_thempoke"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="8dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:id="@+id/spnHe">
+
+        </Spinner>
+
+        <EditText
+            android:enabled="false"
+            android:background="@drawable/user"
+            android:id="@+id/txtHTIdPokemonAddPokemon"
+            android:hint="@string/txt_tenpoke_thempoke"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:background="@drawable/user"
+            android:id="@+id/txtNhapTenPokemon"
+            android:hint="@string/txt_tenpoke_thempoke"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@drawable/user"
+            android:id="@+id/txtNhapCanNangPokemon"
+            android:hint="@string/txt_cannang_thempoke"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@drawable/user"
+            android:id="@+id/txtNhapChieuCaoPokemon"
+            android:hint="@string/txt_chieucao_thempoke"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:paddingRight="10dp"
+                android:id="@+id/imgThemAnhPokemon"
+                android:src="@drawable/imagechoose"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+            <ImageButton
+                android:src="@drawable/pictures_folder"
+                android:id="@+id/btnChonFolder"
+                android:paddingTop="20dp"
+                android:layout_toRightOf="@+id/imgThemAnhPokemon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:background="@drawable/btnthemcapnhat"
+                android:id="@+id/btnThemPokemonAddPokemon"
+                android:layout_marginRight="20dp"
+                android:text="@string/btn_thempoke_thempoke"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:background="@drawable/btnthemcapnhat"
+                android:id="@+id/btnHuyThemAddPokemon"
+                android:layout_marginLeft="20dp"
+                android:text="@string/btn_lamlai_thempoke"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <fragment
+        android:name="com.kanglee.doan_pokemonyeuthich_mrvinh_sqlite.FragmentListPokemon"
+        android:id="@+id/fragListPokemon"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        tools:layout="@layout/fragment_list"
+        android:layout_height="match_parent">
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_detail"
+        android:layout_weight="5"
+        android:name="com.kanglee.doan_pokemonyeuthich_mrvinh_sqlite.FragmentDetailPokemon"
+        android:id="@+id/fragInforPokemon"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+    </fragment>
+
+</LinearLayout>
